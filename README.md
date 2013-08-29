@@ -11,7 +11,7 @@ Source code for a License plate recognition ([ANPR]) demo for iOS using [OpenCV]
 
 #Introduction
   - Experimental project
-  - Require `<opencv2.framework`
+  - Require `<opencv2.framework>`
   - Tesseract OCR lang file (`testdata/eng.traineddata`) was trained using this [Gist] script file and a License Plate font.
 
 #Version
