@@ -28,7 +28,7 @@ Source code for a License plate recognition ([ANPR]) demo for iOS using [OpenCV]
 ##Supports
 * iOS 6.0 or later.
 * Xcode 4.6 (ARC enabled).
-* Required frameworks: oepncv2, UIKit, CoreGraphics and ImageIO.
+* Required frameworks: opencv2, UIKit, CoreGraphics and ImageIO.
 
 #Contact
 <a href="https://twitter.com/chroman">Follow @chroman</a>
