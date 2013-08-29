@@ -144,9 +144,9 @@
     cv::RotatedRect box = minAreaRect( cv::Mat(largestContour[0]));
     cv::Rect box2 = cv::RotatedRect(box.center, box.size, box.angle).boundingRect();
     
-    box2.x += box2.width * 0.04;
+    box2.x += box2.width * 0.028;
     box2.width -= box2.width * 0.05;
-    box2.y += box2.height * 0.305;
+    box2.y += box2.height * 0.25;
     box2.height -= box2.height * 0.55;
     
     cv::Mat cvMat = img_threshold(box2).clone();
