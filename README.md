@@ -33,6 +33,8 @@ Source code for a License plate recognition ([ANPR]) demo for iOS using [OpenCV]
 #Contact
 <a href="https://twitter.com/chroman">Follow @chroman</a>
 
+I'm open to any pull request that can improve this project.
+
 #License
 
 Copyright (c) 2013 Christian Roman, Licensed under the MIT license (http://www.opensource.org/licenses/mit-license.php)
