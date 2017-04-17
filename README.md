@@ -1,23 +1,23 @@
-#ANPR
+# ANPR
 Source code for a License plate recognition ([ANPR]) demo for iOS using [OpenCV] and [Tesseract OCR] engine.
 
-#Example
+# Example
 
-###Input
+### Input
 ![Alt text](https://raw.github.com/chroman/ANPR/master/input.png "Input")
 
-###Output
+### Output
 ![Alt text](https://raw.github.com/chroman/ANPR/master/output.png "Output")
 
-#Introduction
+# Introduction
   - Experimental project
   - Require `<opencv2.framework>`
   - Tesseract OCR lang file (`testdata/eng.traineddata`) was trained using this [Gist] script file and a License Plate font.
 
-#Version
+# Version
 1.0
 
-##Improvements
+## Improvements
 * Improve image processing.
 * Improve square (plate) detection.
 * Perspective transform (or 3D).
@@ -25,17 +25,17 @@ Source code for a License plate recognition ([ANPR]) demo for iOS using [OpenCV]
 * Improve ROI license plate area.
 * Better image crop.
 
-##Supports
+## Supports
 * iOS 6.0 or later.
 * Xcode 4.6 (ARC enabled).
 * Required frameworks: opencv2, UIKit, CoreGraphics and ImageIO.
 
-#Contact
+# Contact
 <a href="https://twitter.com/chroman">Follow @chroman</a>
 
 I'm open to any pull request that can improve this project.
 
-#License
+# License
 
 Copyright (c) 2013 Christian Roman, Licensed under the MIT license (http://www.opensource.org/licenses/mit-license.php)
 
